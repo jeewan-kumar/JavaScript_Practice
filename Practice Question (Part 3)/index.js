@@ -29,6 +29,16 @@
 //     console.log("character is not lowercase");
 // }
 
-let str = prompt("please enter a string");
-console.log(`original string = ${str}`);
-console.log(`String wihout space = ${str.trim()}`);
+// let str = prompt("please enter a string");
+// console.log(`original string = ${str}`);
+// console.log(`String wihout space = ${str.trim()}`);
+
+// let arr = ["hello", 'a', 23, 64, 99, -6];
+// let item = 64;
+
+// if (arr.indexOf(item) != -1) {
+//     console.log(`${item} found at index ${arr.indexOf(item)}`);
+// } else {
+//     console.log(`${item} not found in array`);
+// }
+
