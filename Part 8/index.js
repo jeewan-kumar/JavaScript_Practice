@@ -87,22 +87,23 @@
 // console.log("Max number is: " + result);
 
 /* check if all numbers in our array are multiples of 10 or not*/
-let arr1 = [10, 20, 30, 40,  50];
-console.log(arr1.every(num => num % 10 === 0)); //true
+// let arr1 = [10, 20, 30, 40,  50];
+// console.log(arr1.every(num => num % 10 === 0)); //true
  
 /*creat a function to find min number in an array */
 
-let min = arr1.reduce((min, e) => {
-    if (e < min) return e;
-    else return min;
-});
-console.log(`Minimum value is ${min}`);
+// let min = arr1.reduce((min, e) => {
+//     if (e < min) return e;
+//     else return min;
+// });
+// console.log(`Minimum value is ${min}`);
 
-function getmin(arr1) {
-    let min = arr1.reduce((min, e) => {
-      if (e < min) return e;
-      else return min;
-    });
-    return `The minimum value is ${min} `;
-}
-console.log(getmin(arr1));
+// function getmin(arr1) {
+//     let min = arr1.reduce((min, e) => {
+//       if (e < min) return e;
+//       else return min;
+//     });
+//     return `The minimum value is ${min} `;
+// }
+// console.log(getmin(arr1));
+
